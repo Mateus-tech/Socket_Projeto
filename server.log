@@ -1,0 +1,251 @@
+abr. 27, 2025 4:32:06 PM Server main
+INFO: Servidor iniciado na porta 12345
+abr. 27, 2025 4:32:17 PM Server main
+INFO: Servidor iniciado na porta 12345
+abr. 27, 2025 4:32:29 PM Server main
+INFO: Cliente conectado: /127.0.0.1:52204
+abr. 27, 2025 4:32:51 PM Server handleClient
+INFO: Usuário registrado: Mateus
+abr. 27, 2025 4:33:25 PM Server handleClient
+INFO: Conexão encerrada pelo cliente.
+java.io.EOFException
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3241)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at Server.handleClient(Server.java:76)
+	at Server.lambda$main$0(Server.java:20)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+abr. 27, 2025 4:33:32 PM Server main
+INFO: Cliente conectado: /127.0.0.1:52264
+abr. 27, 2025 4:33:40 PM Server handleClient
+INFO: Login bem-sucedido: Mateus
+abr. 27, 2025 4:33:55 PM Server handleClient
+INFO: Conexão encerrada pelo cliente.
+java.io.EOFException
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3241)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at Server.handleClient(Server.java:76)
+	at Server.lambda$main$0(Server.java:20)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+abr. 27, 2025 4:34:05 PM Server main
+INFO: Cliente conectado: /127.0.0.1:52341
+abr. 27, 2025 4:34:11 PM Server handleClient
+INFO: Login bem-sucedido: Mateus
+abr. 27, 2025 4:34:15 PM Server handleClient
+INFO: Conexão encerrada pelo cliente.
+java.nio.file.InvalidPathException: Illegal char <:> at index 20: storage\Mateus\PDF\C:\Users\mateu\IdeaProjects\Socket_Projeto\src\OAT 01_ 2025.1 - Projeto de redes de computadores (1).pdf
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
+	at java.base/java.nio.file.Path.of(Path.java:148)
+	at java.base/java.nio.file.Paths.get(Paths.java:69)
+	at Manager.enviarArquivo(Manager.java:26)
+	at Server.handleClient(Server.java:83)
+	at Server.lambda$main$0(Server.java:20)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+abr. 27, 2025 4:38:49 PM Server main
+INFO: Servidor iniciado na porta 12345
+abr. 27, 2025 4:38:55 PM Server main
+INFO: Cliente conectado: /127.0.0.1:65527
+abr. 27, 2025 4:39:03 PM Server handleClient
+INFO: Usuário registrado: Mateus
+abr. 27, 2025 4:39:35 PM Server handleClient
+INFO: Conexão encerrada pelo cliente.
+java.io.EOFException
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3241)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at Server.handleClient(Server.java:76)
+	at Server.lambda$main$0(Server.java:20)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+abr. 27, 2025 4:39:54 PM Server main
+INFO: Cliente conectado: /127.0.0.1:49163
+abr. 27, 2025 4:40:00 PM Server handleClient
+INFO: Login bem-sucedido: Mateus
+abr. 27, 2025 4:40:04 PM Server handleClient
+INFO: Conexão encerrada pelo cliente.
+java.io.EOFException
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3241)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at Server.handleClient(Server.java:76)
+	at Server.lambda$main$0(Server.java:20)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+abr. 27, 2025 4:40:14 PM Server main
+INFO: Cliente conectado: /127.0.0.1:49171
+abr. 27, 2025 4:40:20 PM Server handleClient
+INFO: Login bem-sucedido: Mateus
+abr. 27, 2025 4:40:23 PM Server handleClient
+INFO: Conexão encerrada pelo cliente.
+java.nio.file.InvalidPathException: Illegal char <:> at index 20: storage\Mateus\PDF\C:\Users\mateu\IdeaProjects\Socket_Projeto\src\OAT 01_ 2025.1 - Projeto de redes de computadores (1).pdf
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
+	at java.base/java.nio.file.Path.of(Path.java:148)
+	at java.base/java.nio.file.Paths.get(Paths.java:69)
+	at Manager.enviarArquivo(Manager.java:26)
+	at Server.handleClient(Server.java:83)
+	at Server.lambda$main$0(Server.java:20)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+abr. 27, 2025 4:42:13 PM Server main
+INFO: Servidor iniciado na porta 12345
+abr. 27, 2025 4:42:17 PM Server main
+INFO: Cliente conectado: /127.0.0.1:49211
+abr. 27, 2025 4:42:24 PM Server handleClient
+INFO: Usuário adicionado: Mateus
+abr. 27, 2025 4:42:41 PM Server handleClient
+INFO: Conexão encerrada pelo cliente
+abr. 27, 2025 4:45:40 PM Server main
+INFO: Servidor iniciado na porta 12345
+abr. 27, 2025 4:45:44 PM Server main
+INFO: Cliente conectado: /127.0.0.1:49282
+abr. 27, 2025 4:45:51 PM Server handleClient
+INFO: Usuário adicionado: Mateus
+abr. 27, 2025 4:46:19 PM Server handleClient
+SEVERE: Erro ao tratar cliente
+java.lang.ClassCastException: class java.lang.String cannot be cast to class [B (java.lang.String and [B are in module java.base of loader 'bootstrap')
+	at Server.handleClient(Server.java:66)
+	at Server.lambda$main$0(Server.java:21)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+abr. 27, 2025 4:48:05 PM Server main
+INFO: Cliente conectado: /127.0.0.1:49344
+abr. 27, 2025 4:48:11 PM Server handleClient
+INFO: Login válido: Mateus
+abr. 27, 2025 4:48:27 PM Server handleClient
+INFO: Upload: Mateus/OAT 01_ 2025.1 - Projeto de redes de computadores (1).pdf
+abr. 27, 2025 4:49:18 PM Server handleClient
+INFO: Upload: Mateus/OAT 01_ 2025.1 - Projeto de redes de computadores (1).pdf
+abr. 27, 2025 4:50:15 PM Server handleClient
+SEVERE: Erro ao tratar cliente
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1116)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1103)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1097)
+	at java.base/java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2900)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:3229)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3239)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at Server.handleClient(Server.java:58)
+	at Server.lambda$main$0(Server.java:21)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+abr. 27, 2025 4:50:16 PM Server main
+INFO: Cliente conectado: /127.0.0.1:49469
+abr. 27, 2025 4:50:25 PM Server handleClient
+INFO: Login válido: Mateus
+abr. 27, 2025 4:50:42 PM Server handleClient
+INFO: Upload: Mateus/Teste.txt
+abr. 27, 2025 4:51:26 PM Server handleClient
+INFO: Download servido: Teste.txt
+abr. 27, 2025 4:52:20 PM Server main
+INFO: Servidor iniciado na porta 12345
+abr. 27, 2025 4:52:27 PM Server main
+INFO: Cliente conectado: /127.0.0.1:49508
+abr. 27, 2025 4:52:35 PM Server handleClient
+INFO: Usuário adicionado: Mateus
+abr. 27, 2025 4:54:51 PM Server handleClient
+SEVERE: Erro ao tratar cliente
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1116)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1103)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1097)
+	at java.base/java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2900)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:3229)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3239)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at Server.handleClient(Server.java:58)
+	at Server.lambda$main$0(Server.java:21)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+abr. 27, 2025 4:54:52 PM Server main
+INFO: Cliente conectado: /127.0.0.1:49550
+abr. 27, 2025 4:54:56 PM Server handleClient
+INFO: Usuário adicionado: Lucas
+abr. 27, 2025 4:56:04 PM Server handleClient
+SEVERE: Erro ao tratar cliente
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1116)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1103)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1097)
+	at java.base/java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2900)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:3229)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3239)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at Server.handleClient(Server.java:58)
+	at Server.lambda$main$0(Server.java:21)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+abr. 27, 2025 4:56:05 PM Server main
+INFO: Cliente conectado: /127.0.0.1:49570
+abr. 27, 2025 4:59:06 PM Server main
+INFO: Servidor iniciado na porta 12345
+abr. 27, 2025 4:59:22 PM Server main
+INFO: Cliente conectado: /127.0.0.1:49627
+abr. 27, 2025 4:59:28 PM Server handleClient
+WARNING: Falha de login para usuário existente: Mateus
+abr. 27, 2025 4:59:55 PM Server main
+INFO: Servidor iniciado na porta 12345
+abr. 27, 2025 4:59:58 PM Server main
+INFO: Cliente conectado: /127.0.0.1:49648
+abr. 27, 2025 5:00:04 PM Server handleClient
+WARNING: Falha de login para usuário existente: Lucas
+abr. 27, 2025 5:01:49 PM Server main
+INFO: Servidor iniciado na porta 12345
+abr. 27, 2025 5:01:57 PM Server main
+INFO: Cliente conectado: /127.0.0.1:49698
+abr. 27, 2025 5:02:05 PM Server handleClient
+INFO: Usuário adicionado: Mateus
+abr. 27, 2025 5:02:15 PM Server handleClient
+SEVERE: Erro ao tratar cliente
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1116)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1103)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1097)
+	at java.base/java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2900)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:3229)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3239)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at Server.handleClient(Server.java:59)
+	at Server.lambda$main$0(Server.java:22)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+abr. 27, 2025 5:02:15 PM Server main
+INFO: Cliente conectado: /127.0.0.1:49706
+abr. 27, 2025 5:02:22 PM Server handleClient
+WARNING: Falha de login para usuário existente: Mateus
